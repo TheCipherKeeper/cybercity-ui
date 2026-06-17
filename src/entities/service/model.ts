@@ -9,7 +9,7 @@ export interface TopologyPayload {
     networks: number
     services: number
     links: number
-    mock_services: number
+    honeypot_services: number
   }
   nodes: RawServiceNode[]
   edges: RawServiceLink[]

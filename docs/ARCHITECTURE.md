@@ -108,7 +108,7 @@ export interface ServiceNode {
   criticality: Criticality
   ports: string[]
   osHint: string | null
-  isMock: boolean
+  isHoneypot: boolean
   host: string | null
 }
 

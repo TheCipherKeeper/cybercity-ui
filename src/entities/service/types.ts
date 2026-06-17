@@ -16,7 +16,7 @@ export interface ServiceNode {
   criticality: Criticality
   ports: string[]
   osHint: string | null
-  isMock: boolean
+  isHoneypot: boolean
   host: string | null
 }
 
@@ -35,7 +35,7 @@ export interface RawServiceNode {
   criticality: string
   ports: string[]
   os_hint: string | null
-  is_mock: boolean
+  is_honeypot: boolean
   host: string | null
 }
 
@@ -55,7 +55,7 @@ export function normalizeServiceNode(raw: RawServiceNode): ServiceNode {
     criticality: asCriticality(raw.criticality),
     ports: raw.ports,
     osHint: raw.os_hint,
-    isMock: raw.is_mock,
+    isHoneypot: raw.is_honeypot,
     host: raw.host,
   }
 }

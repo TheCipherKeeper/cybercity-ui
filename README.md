@@ -1,6 +1,6 @@
 # CyberCity — UI
 
-[![Part of CyberCity](https://img.shields.io/badge/CyberCity-composition-blueviolet)](#)
+[![Part of CyberCity](https://img.shields.io/badge/CyberCity-composition-blueviolet)](https://github.com/TheCipherKeeper/cybercity)
 [![License: MIT](https://img.shields.io/badge/code-MIT-green)](LICENSE)
 [![Docs: CC BY 4.0](https://img.shields.io/badge/docs-CC%20BY%204.0-lightgrey)](LICENSE-DOCS)
 
@@ -71,14 +71,15 @@ cp ../cybercity-data/build/topology.json public/assets/topology.json
 
 | Слой | Репозиторий |
 |---|---|
-| Профиль / витрина | [TheCipherKeeper](https://github.com/TheCipherKeeper/TheCipherKeeper) |
-| Сайт | [thecipherkeeper.github.io](https://github.com/TheCipherKeeper/thecipherkeeper.github.io) |
-| Core | [cybercity](https://github.com/TheCipherKeeper/cybercity) |
+| Витрина | [cybercity](https://github.com/TheCipherKeeper/cybercity) |
 | Данные | [cybercity-data](https://github.com/TheCipherKeeper/cybercity-data) |
-| Сценарии | [cybercity-scenarios](https://github.com/TheCipherKeeper/cybercity-scenarios) |
-| **UI (этот репо)** | **cybercity-ui** |
-| Агенты | [cybercity-agents](https://github.com/TheCipherKeeper/cybercity-agents) |
-| Blueprints | [cybercity-blueprints](https://github.com/TheCipherKeeper/cybercity-blueprints) |
+| Runtime | [cybercity-engine](https://github.com/TheCipherKeeper/cybercity-engine) |
+| Управление | [cybercity-manage](https://github.com/TheCipherKeeper/cybercity-manage) |
+| Коллектор | [cybercity-collector](https://github.com/TheCipherKeeper/cybercity-collector) |
+| **Визуал (этот репо)** | **[cybercity-ui](https://github.com/TheCipherKeeper/cybercity-ui)** |
+
+> Канон композиции, контрактов и доверительной границы —
+> [`cybercity/COMPOSITION.md`](https://github.com/TheCipherKeeper/cybercity/blob/main/COMPOSITION.md).
 
 ## Лицензия
 
